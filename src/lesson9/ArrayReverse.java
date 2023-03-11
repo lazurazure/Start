@@ -22,7 +22,7 @@ public class ArrayReverse {
         for (int i = 0, j = strArray.length - 1; i < strArray.length; i++, j--){
             strArrayReversed[i] = strArray [j];
         }
-        ArrayUtils.showArray(strArray);
+        ArrayUtils.showArray(strArrayReversed);
 
     }
 }

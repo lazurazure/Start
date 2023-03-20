@@ -5,7 +5,7 @@ import lesson8.ArrayUtils;
 public class ArrayReverse {
     public static void main(String[] args) {
 
-//        char [] chars = {'a','b', 'c', 'D', 'e'};//нет слова new т.к. его задали
+//        char [] chars = {'a','b', 'c', 'D', 'e'};//нет слова new т.к. массив задан в данном случае задали
 //        char [] charsReversed = new char[chars.length];
 
 //        for (int i = 0, j = chars.length - 1; i < chars.length; i++, j--){

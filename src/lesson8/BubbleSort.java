@@ -34,8 +34,7 @@ public class BubbleSort {
 //                System.out.println("\nIteration " + k + " of inner loop");
 ////                ArrayUtils.showArray(numbers);
 //            }
-//        }
-//        System.out.println("Sorted?");
-//        ArrayUtils.showArray(numbers);
+//
+//
   }
 }

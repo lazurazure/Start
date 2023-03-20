@@ -2,7 +2,7 @@ package lesson8;
 
 public class ACopy {
     public static void main(String[] args) {
-
+//копирование массива
         int i;
         int nums1[] = new int[10];
         int nums2[] = new int[10];

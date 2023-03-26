@@ -6,15 +6,41 @@ public class FitnessClub {
     // название, максимальное число клиентов, текущее число клиентов, адрес и т.д., методы: геттеры,
     // сеттеры для полей, проверка того, можно ли записать определенное количество клиентов).
 
-    public String publicNameFitnessClub = new String("My public FitnessClub");
+    private String nameFitnessClub = new String("Name FitnessClub");
+    private int currentClient = 0;
+    private int maxClient = 10;
 
-    private String nameFitnessClub = new String("My private FitnessClub");
-
-    public String getNameFitnessClub (){
-        return this.nameFitnessClub;
+    public int getCurrentClient() {
+        return currentClient;
     }
 
-    public void setNameFitnessClub (String newName){
-        this.nameFitnessClub = newName;
+    public void setCurrentClient(int client) {
+        if (client <= this.getMaxClient()) {
+            this.currentClient = client;
+        }
     }
+
+    public int getMaxClient() {
+        return maxClient;
+    }
+
+    public String getNameFitnessClub() {
+        return nameFitnessClub;
+    }
+    public void setNameFitnessClub(String nameFitnessClub) {
+        this.nameFitnessClub = nameFitnessClub;
+    }
+
+
+
+//    public String getNameFitnessClub (){
+//        return this.nameFitnessClub;
+//    }
+//
+//    public void setNameFitnessClub (String newName){
+//        this.nameFitnessClub = newName;
+//    }
+//
+
+
 }

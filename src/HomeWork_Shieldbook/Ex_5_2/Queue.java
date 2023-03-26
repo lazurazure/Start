@@ -1,4 +1,4 @@
-package HomeWork.Ex_5_2;
+package HomeWork_Shieldbook.Ex_5_2;
 
 public class Queue {
         char q[]; // массив для хранения элементов очереди

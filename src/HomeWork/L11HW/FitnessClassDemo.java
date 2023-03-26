@@ -5,17 +5,19 @@ import lesson11.MyClass;
 public class FitnessClassDemo {
     public static void main(String[] args) {
 
-        FitnessClub oneFitnessClub = new FitnessClub();
+        FitnessClub firstFitnessClub = new FitnessClub();
+        firstFitnessClub.setNameFitnessClub("First FitnessClub");
 
-        //FitnessClub twoFitnessClub = new FitnessClub();
+        System.out.println(firstFitnessClub.getNameFitnessClub());
 
-        //System.out.println(myFitnessClub.getNameFitnessClub());
-        System.out.println(oneFitnessClub.publicNameFitnessClub);
+        System.out.println(firstFitnessClub.getCurrentClient());
 
-        System.out.println(oneFitnessClub.getNameFitnessClub());
+        firstFitnessClub.setCurrentClient(20);
+        System.out.println(firstFitnessClub.getCurrentClient());
 
-        oneFitnessClub.setNameFitnessClub("123");
-
-        System.out.println(oneFitnessClub.getNameFitnessClub());
+        firstFitnessClub.setCurrentClient(9);
+        System.out.println(firstFitnessClub.getCurrentClient());
     }
+
+
 }

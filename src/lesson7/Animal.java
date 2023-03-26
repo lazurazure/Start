@@ -1,6 +1,8 @@
 package lesson7;
 
-public class Animal {
+import lesson12.Growable;
+
+public class Animal implements Growable {
 
     float size;//атрибуты класса
     boolean isPredator;
@@ -16,5 +18,22 @@ public class Animal {
     String sound(){
         if (isPredator) return "Roar";
         else return "Cry";
+    }
+
+    //-------- методы имлементированы через Animal implements Growable -> правое меню - сделать обязательно
+    @Override
+    public void eat() {
+        System.out.println("Om-nom-nom");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("Hrrr-rrr");
+
+    }
+
+    @Override
+    public int changeSize(int previousSizeInCM) {
+        return previousSizeInCM++;
     }
 }

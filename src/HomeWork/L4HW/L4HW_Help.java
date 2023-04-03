@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork.L4HW;
 
 public class L4HW_Help {
     void helpon(int what) {
